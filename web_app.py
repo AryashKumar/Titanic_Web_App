@@ -7,8 +7,8 @@ import joblib
 from PIL import Image
 
 
-model = joblib.load('C:/Users/aryas/streamlit/trained_mode2.sav')
-image=Image.open('D:/streamlit/titanic2.jpg')
+model = joblib.load('trained_mode2.sav')
+image=Image.open('titanic2.jpg')
 st.title(':blue[_Titanic_] :red[Survival Prediction]',)
 st.header('Did _You_ survive? :ship:')
 st.image(image,use_column_width='always',clamp=False)

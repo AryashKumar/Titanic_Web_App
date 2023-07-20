@@ -6,3 +6,4 @@ streamlit==1.20.0
 python-utils==3.7.0
 Pillow==9.5.0
 pickle==4.0
+scikit-learn==0.23.1
